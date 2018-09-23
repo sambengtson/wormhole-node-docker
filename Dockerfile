@@ -21,4 +21,5 @@ ADD .bitcoin /.bitcoin
 
 WORKDIR /wormhole/src
 
+EXPOSE 8332
 CMD wormholed
